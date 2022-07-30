@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kumilachew Getie</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <a href="index.html"><img src="./images/myLogo.png" alt="logo" /></a>
+      </div>
+      <ul class="nav-container">
+        <li class="nav-item">
+          <a class="nav-link" href="#works">Portofolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Mobile menu start here-->
+      <div class="mobile-menu-container">
+        <img
+          id="open"
+          class="open"
+          src="./images/hamburger.svg"
+          alt="hamburger"
+        />
+        <nav id="nav-js" class="menu-mobile visible">
+          <img id="close" src="./images/x.svg" alt="" />
+          <ul id="nav-items" class="nav-items">
+            <li class="m-nav-links"><a href="#works">Portofolio</a></li>
+            <li class="m-nav-links"><a href="#about">About</a></li>
+            <li class="m-nav-links"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- mobile menu ends -->
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="introduction">
+      <div class="demo-container">
+        <h1>
+          I'm Kumilachew <br />
+          Glad to see you!
+        </h1>
+        <p>
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
+        <div class="lets-contact-container">
+          <a href="#contact" class="connect-link">LET’S CONNECT</a>
+          <ul class="ul-soscial-link">
+            <li class="li-social-links">
+              <a href="#"><img src="./images/t.svg" alt="" /></a>
+            </li>
+            <li class="li-social-links">
+              <a href="#"><img src="./images/l.svg" alt="" /></a>
+            </li>
+            <li class="li-social-links">
+              <a href="#"><img src="./images/m.svg" alt="" /></a>
+            </li>
+            <li class="li-social-links">
+              <a href="#"><img src="./images/g.svg" alt="" /></a>
+            </li>
+            <li class="li-social-links">
+              <a href="#"><img src="./images/a.svg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="work-section" id="works">
+      <div id="work-container" class="work-container"></div>
+    </div>
+    <section id="about" class="about-section about-myself">
+      <div class="about-me-container">
+        <h2>
+          About <br />
+          Myself
+        </h2>
+        <p>
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If you
+          like what you see and have a project you need coded, don’t hestiate to
+          contact me.
+        </p>
+        <a class="connect-link" href="#">LET’S CONNECT</a>
+        <ul class="ul-soscial-link">
+          <li>
+            <a href="#kumilachew"><img src="./images/t.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#kumilachew"><img src="./images/l.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#kumilachew"><img src="./images/m.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#kumilachew"><img src="./images/g.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#kumilachew"><img src="./images/a.svg" alt="" /></a>
+          </li>
+        </ul>
+        <button type="submit" class="get-btn">Get my resume</button>
+      </div>
+      <div class="skills-container">
+        <ul class="ul-skills-container">
+          <li class="li-skills-items live">
+            Languages
+            <img class="icon" src="images/arrowd.svg" alt="" />
+            <ul class="ul-languages-skills">
+              <li>
+                <img src="images/j.png" alt="" />
+                <a href="#">JavaSript</a>
+              </li>
+              <li>
+                <img src=" images/h.png" alt="" />
+                <a href="#">HTML</a>
+              </li>
+              <li>
+                <img src="images/c.png" alt="" />
+                <a href="#">CSS</a>
+              </li>
+            </ul>
+          </li>
+          <li class="li-skills-items">
+            Frameworks
+            <img class="icon" src="images/arrowr.svg" alt="" />
+          </li>
+          <li class="li-skills-items">
+            Skills
+            <img class="icon" src="images/arrowr.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="footer-section">
+      <footer class="footer" id="contact">
+        <div class="div-footer">
+          <h3>Contact Me</h3>
+          <p>
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+          <form
+            id="contactForm"
+            class="contact-form"
+            method="post"
+            action="https://formspree.io/f/xeqngaoy"
+          >
+            <div class="div-form">
+              <input
+                id="name"
+                type="text"
+                maxlength="30"
+                name="name"
+                placeholder="your name"
+                required
+              />
+            </div>
+            <div class="div-form">
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="your email"
+                required
+              />
+            </div>
+            <div class="div-form">
+              <textarea
+                id="msg"
+                name="msg"
+                placeholder="your message"
+                maxlength="500"
+                required
+              ></textarea>
+            </div>
+            <!-- Animation -->
+            <small id="error" class="visible"></small>
+            <button type="submit" class="btn--submit">Get It Touch</button>
+          </form>
+        </div>
+      </footer>
+    </section>
+    <!-- Here is a Popup id-->
+    <div id="popup" class="div-l-container visible"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
