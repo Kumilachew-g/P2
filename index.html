@@ -4,199 +4,221 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kumilachew Getie</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>Kumilachew Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-X6ZMZYL3WX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-X6ZMZYL3WX');
+    </script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
   </head>
+
   <body>
-    <header>
-      <div class="logo-container">
-        <a href="index.html"><img src="./images/myLogo.png" alt="logo" /></a>
-      </div>
-      <ul class="nav-container">
-        <li class="nav-item">
-          <a class="nav-link" href="#works">Portofolio</a>
+    <div id="menu-list" class="mobile-menu one-hundred">
+      <ul>
+        <li class="close-btn">
+          <a class="mobile-menu-links">x</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
+        <li>
+          <a class="mobile-menu-links" href="#protofilo">Portfolio</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+        <li>
+          <a class="mobile-menu-links" href="#about">About</a>
+        </li>
+        <li>
+          <a class="mobile-menu-links" href="#contact">Contact</a>
         </li>
       </ul>
-
-      <!-- Mobile menu start here-->
-      <div class="mobile-menu-container">
-        <img
-          id="open"
-          class="open"
-          src="./images/hamburger.svg"
-          alt="hamburger"
-        />
-        <nav id="nav-js" class="menu-mobile visible">
-          <img id="close" src="./images/x.svg" alt="" />
-          <ul id="nav-items" class="nav-items">
-            <li class="m-nav-links"><a href="#works">Portofolio</a></li>
-            <li class="m-nav-links"><a href="#about">About</a></li>
-            <li class="m-nav-links"><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-      <!-- mobile menu ends -->
+    </div>
+    <header class="add-blur">
+      <nav>
+        <a class="rotate-logo logo" href="#"> Kumilachew </a>
+        <a id="menu-icon" class="header-mobile" href="#">
+          <img src="images/Union.png" alt="Union Image for menu" />
+        </a>
+        <div class="header-links d-none">
+          <a href="#protofilo"> Protofilo </a>
+          <a href="#about"> About </a>
+          <a href="#contact"> Contact </a>
+        </div>
+      </nav>
     </header>
 
-    <!-- Introduction Section -->
-    <section class="introduction">
-      <div class="demo-container">
-        <h1>
-          I'm Kumilachew <br />
-          Glad to see you!
-        </h1>
+    <main class="add-blur">
+      <section class="header">
+        <h1>I'm Kumilachew<br />Glad to see you</h1>
         <p>
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
+          Information systems graduate and software engineer passionate about
+          building scalable web applications looking for a job in a reputable
+          company as a web developer to enhance my knowledge, grow as a
+          developer, and benefit the company.
         </p>
-        <div class="lets-contact-container">
-          <a href="#contact" class="connect-link">LET’S CONNECT</a>
-          <ul class="ul-soscial-link">
-            <li class="li-social-links">
-              <a href="#"><img src="./images/t.svg" alt="" /></a>
+        <ul class="social">
+          <li>
+            <a href="https://twitter.com/Getie_Haddis" target="_blank">
+              <img src="images/Twitter.svg" alt="Twitter icon" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/kumilachew-getie-0356bb157/"
+              target="_blank"
+            >
+              <img src="images/Linkedin.svg" alt="Linkedin icon" />
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@kumilachew1212" target="_blank">
+              <img src="images/Medium.svg" alt="Medium icon" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Kumilachew-g" target="_blank">
+              <img src="images/Github.svg" alt="Github icon" />
+            </a>
+          </li>
+          <li>
+            <a href="https://angel.co/company/profile" target="_blank">
+              <img src="images/Angelist.svg" alt="Angelist icon" />
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <div id="protofilo" class="my-projects"></div>
+
+      <section id="about" class="about">
+        <div class="header">
+          <h2 class="about-title">About Myself</h2>
+          <ul class="about-info">
+            <li>I have a degree in Information System.</li>
+            <li>
+              I finished
+              <a href="https://www.microverse.org/" target="_blank"
+                >Microverse</a
+              >.
             </li>
-            <li class="li-social-links">
-              <a href="#"><img src="./images/l.svg" alt="" /></a>
+            <li>Now, I'm looking for new opportunity.</li>
+          </ul>
+          <ul class="social">
+            <li>
+              <a href="https://twitter.com/Getie_Haddis" target="_blank">
+                <img src="images/Twitter.svg" alt="Twitter icon" />
+              </a>
             </li>
-            <li class="li-social-links">
-              <a href="#"><img src="./images/m.svg" alt="" /></a>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/kumilachew-getie-0356bb157/"
+                target="_blank"
+              >
+                <img src="images/Linkedin.svg" alt="Linkedin icon" />
+              </a>
             </li>
-            <li class="li-social-links">
-              <a href="#"><img src="./images/g.svg" alt="" /></a>
+            <li>
+              <a href="https://medium.com/@kumilachew1212" target="_blank">
+                <img src="images/Medium.svg" alt="Medium icon" />
+              </a>
             </li>
-            <li class="li-social-links">
-              <a href="#"><img src="./images/a.svg" alt="" /></a>
+            <li>
+              <a href="https://github.com/Kumilachew-g" target="_blank">
+                <img src="images/Github.svg" alt="Github icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://angel.co/company/profile" target="_blank">
+                <img src="images/Angelist.svg" alt="Angelist icon" />
+              </a>
             </li>
           </ul>
+          <a
+            href="./files/Kumie_CV.pdf"
+            class="resume-button main-button"
+            download
+            >Get my resume</a
+          >
         </div>
-      </div>
-    </section>
-    <div class="work-section" id="works">
-      <div id="work-container" class="work-container"></div>
-    </div>
-    <section id="about" class="about-section about-myself">
-      <div class="about-me-container">
-        <h2>
-          About <br />
-          Myself
-        </h2>
-        <p>
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don’t hestiate to
-          contact me.
-        </p>
-        <a class="connect-link" href="#">LET’S CONNECT</a>
-        <ul class="ul-soscial-link">
-          <li>
-            <a href="#kumilachew"><img src="./images/t.svg" alt="" /></a>
-          </li>
-          <li>
-            <a href="#kumilachew"><img src="./images/l.svg" alt="" /></a>
-          </li>
-          <li>
-            <a href="#kumilachew"><img src="./images/m.svg" alt="" /></a>
-          </li>
-          <li>
-            <a href="#kumilachew"><img src="./images/g.svg" alt="" /></a>
-          </li>
-          <li>
-            <a href="#kumilachew"><img src="./images/a.svg" alt="" /></a>
-          </li>
-        </ul>
-        <button type="submit" class="get-btn">Get my resume</button>
-      </div>
-      <div class="skills-container">
-        <ul class="ul-skills-container">
-          <li class="li-skills-items live">
-            Languages
-            <img class="icon" src="images/arrowd.svg" alt="" />
-            <ul class="ul-languages-skills">
-              <li>
-                <img src="images/j.png" alt="" />
-                <a href="#">JavaSript</a>
-              </li>
-              <li>
-                <img src=" images/h.png" alt="" />
-                <a href="#">HTML</a>
-              </li>
-              <li>
-                <img src="images/c.png" alt="" />
-                <a href="#">CSS</a>
-              </li>
-            </ul>
-          </li>
-          <li class="li-skills-items">
-            Frameworks
-            <img class="icon" src="images/arrowr.svg" alt="" />
-          </li>
-          <li class="li-skills-items">
-            Skills
-            <img class="icon" src="images/arrowr.svg" alt="" />
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="footer-section">
-      <footer class="footer" id="contact">
-        <div class="div-footer">
-          <h3>Contact Me</h3>
-          <p>
+
+        <ul class="my-technologies"></ul>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer add-blur">
+      <div class="footer-content">
+        <h2 class="footer-title">Contact me</h2>
+        <div class="container-form">
+          <p class="cnt-text">
             If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I’d love
             to help with it
           </p>
           <form
             id="contactForm"
-            class="contact-form"
+            class="cnt-form-controls"
+            action="mailto:kumilachew1212@gmail.com"
             method="post"
-            action="https://formspree.io/f/mbjwvgbk"
           >
-            <div class="div-form">
+            <label for="name">
               <input
-                id="name"
+                class="form-field"
                 type="text"
+                id="name"
+                name="userName"
+                placeholder="Enter your name"
+                required
                 maxlength="30"
-                name="name"
-                placeholder="your name"
-                required
               />
-            </div>
-            <div class="div-form">
+            </label>
+            <label for="email">
               <input
-                id="email"
+                class="form-field"
                 type="email"
-                name="email"
-                placeholder="your email"
+                id="email"
+                name="userEmail"
+                placeholder="Enter your email"
                 required
               />
-            </div>
-            <div class="div-form">
+            </label>
+            <label for="msg">
               <textarea
+                class="form-field"
+                name="userMessage"
                 id="msg"
-                name="msg"
-                placeholder="your message"
+                cols="30"
+                rows="10"
                 maxlength="500"
                 required
+                placeholder="Write your message here"
               ></textarea>
-            </div>
-            <!-- Animation -->
-            <small id="error" class="visible"></small>
-            <button type="submit" class="btn--submit">Get It Touch</button>
+            </label>
+            <p id="error-msg" class="error d-none">Email must be lowercase</p>
+            <button type="submit" class="btn">Get in Touch</button>
           </form>
         </div>
-      </footer>
-    </section>
-    <!-- Here is a Popup id-->
-    <div id="popup" class="div-l-container visible"></div>
-    <script src="script.js"></script>
+        <div id="line"></div>
+      </div>
+    </footer>
+    <script type="module" src="./js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
   </body>
 </html>
