@@ -46,7 +46,7 @@ const projects = [
     name: 'Recipe App',
     description:
       'The Recipe App keeps track of all our recipes, ingredients, and inventory.',
-    featuredImage: 'images/recipe1.png',
+    featuredImage: 'images/recipe.png',
     technologies: ['Rails', 'CSS', 'Bootstrap', 'Ruby on Rails ', 'PostgreSQL'],
     liveVersion: 'https://recipe-app-7d79.onrender.com',
     source: 'https://github.com/wandergithub/Recipe-app',
