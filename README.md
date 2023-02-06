@@ -1,48 +1,76 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Personal-Portfolio
+# Portfolio
 
-This project is mainly about creating personal portfolio by HTML5 and CSS3.
+> This is my portfolio project.
 
 ## Built With
 
-- Major languages: HTML5,CSS3
-- Technologies used: linters, Lighthouse, Webhint, Stylelint
+- HTML
+- CSS
+- Linters
+- Javascript
+
+## Live Demo
+
+[Link]()
 
 ## Getting Started
 
-To access a local copy up and runn follow these simple steps.
+To get a local copy up and running follow these simple example steps.
+
+- Click on the top right green "code" button.
+- On the dropdown menu, choose "download with zip" button.
+- After download, extract the zip file and you have the project running on your machine.
 
 ### Prerequisites
 
-- web browser
+### Setup
+
+### Install
 
 ### Usage
 
-- clone this repository into your local machine
-- unzip it
-- open the 'index.html' file with your browser
+### Run tests
+
+### Deployment
 
 ## Authors
 
-👤 **Kumilachew Getie**
+<div id="badges"align="center">
 
-- GitHub: [@githubhandle](https://github.com/Kumilachew-g/)
-- Twitter: [@twitterhandle](https://twitter.com/Getie_Haddis)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kumilachew-getie-0356bb157/)
+## 👤 _Kumilachew Getie_
+
+</div>
+
+<div id="badges"align="center">
+  <a href="https://www.linkedin.com/in/kumilachew-getie-0356bb157/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://github.com/Kumilachew-g/">
+    <img src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github&logoColor=white" alt="Github Badge"/>
+  </a>
+  <a href="https://github.com/Kumilachew-g/">
+    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  </a>
+</div>
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Kumilachew-g/Personal-Portfolio/issues).
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a ⭐ if you like this project!
+Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- To team microverse and those who wrote the readme template
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
