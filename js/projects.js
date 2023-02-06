@@ -28,7 +28,7 @@ const projects = [
     name: 'PokeDex App',
     description:
       'This project is a PokeDex featuring the original Pokemon from Gen1. The project was built with react, redux, and fetch API.',
-    featuredImage: 'images/pokedex.png',
+    featuredImage: 'images/poke.png',
     technologies: ['React', 'Redux', 'CSS', 'API'],
     liveVersion: 'https://pekedex.netlify.app/',
     source: 'https://github.com/Kumilachew-g/react-capstone',
@@ -46,7 +46,7 @@ const projects = [
     name: 'Recipe App',
     description:
       'The Recipe App keeps track of all our recipes, ingredients, and inventory.',
-    featuredImage: 'images/recipe.png',
+    featuredImage: 'images/recipe1.png',
     technologies: ['Rails', 'CSS', 'Bootstrap', 'Ruby on Rails ', 'PostgreSQL'],
     liveVersion: 'https://recipe-app-7d79.onrender.com',
     source: 'https://github.com/wandergithub/Recipe-app',
