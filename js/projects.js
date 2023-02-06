@@ -37,7 +37,7 @@ const projects = [
     name: 'Leader Board',
     description:
       'This project is a Leader Board featuring the top 100 players from the game League of Legends. The project was built with react, redux, and fetch API.',
-    featuredImage: 'images/Leader_board.png',
+    featuredImage: 'images/leader_board.png',
     technologies: ['React', 'Redux', 'Tailwind CSS', 'API'],
     liveVersion: 'https://kumilachew-g.github.io/Leaderboard/dist/',
     source: 'https://github.com/Kumilachew-g/Leaderboard',
