@@ -19,7 +19,7 @@ const projects = [
     name: 'Budget App',
     description:
       'The budget app is a mobile web application where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you spent and on what.',
-    featuredImage: './images/Budget4.png',
+    featuredImage: '.images/Budget4.png',
     technologies: ['Ruby', 'Ruby on Rails', 'Postgres', 'Tailwind CSS'],
     liveVersion: 'https://budget-app-lfai.onrender.com/',
     source: 'https://github.com/Kumilachew-g/budget-app',
