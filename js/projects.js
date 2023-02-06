@@ -19,7 +19,7 @@ const projects = [
     name: 'Budget App',
     description:
       'The budget app is a mobile web application where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you spent and on what.',
-    featuredImage: '.images/Budget4.png',
+    featuredImage: 'images/budget4.png',
     technologies: ['Ruby', 'Ruby on Rails', 'Postgres', 'Tailwind CSS'],
     liveVersion: 'https://budget-app-lfai.onrender.com/',
     source: 'https://github.com/Kumilachew-g/budget-app',
@@ -28,7 +28,7 @@ const projects = [
     name: 'PokeDex App',
     description:
       'This project is a PokeDex featuring the original Pokemon from Gen1. The project was built with react, redux, and fetch API.',
-    featuredImage: 'images/Poke.png',
+    featuredImage: 'images/poke.png',
     technologies: ['React', 'Redux', 'CSS', 'API'],
     liveVersion: 'https://pekedex.netlify.app/',
     source: 'https://github.com/Kumilachew-g/react-capstone',
