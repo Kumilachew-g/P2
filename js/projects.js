@@ -28,7 +28,7 @@ const projects = [
     name: 'PokeDex App',
     description:
       'This project is a PokeDex featuring the original Pokemon from Gen1. The project was built with react, redux, and fetch API.',
-    featuredImage: 'images/poke.png',
+    featuredImage: 'images/pokedex.png',
     technologies: ['React', 'Redux', 'CSS', 'API'],
     liveVersion: 'https://pekedex.netlify.app/',
     source: 'https://github.com/Kumilachew-g/react-capstone',
@@ -46,7 +46,7 @@ const projects = [
     name: 'Recipe App',
     description:
       'The Recipe App keeps track of all our recipes, ingredients, and inventory.',
-    featuredImage: 'images/recipe2.png',
+    featuredImage: 'images/recipe.png',
     technologies: ['Rails', 'CSS', 'Bootstrap', 'Ruby on Rails ', 'PostgreSQL'],
     liveVersion: 'https://recipe-app-7d79.onrender.com',
     source: 'https://github.com/wandergithub/Recipe-app',
@@ -63,7 +63,7 @@ const projects = [
   {
     name: 'Awesome Books',
     description: 'Basic website for add and remove books',
-    featuredImage: 'images/awesomee.png',
+    featuredImage: 'images/awesome.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     liveVersion: 'https://kumilachew-g.github.io/Awesome-Books-SPA/',
     source: 'https://github.com/Kumilachew-g/Awesome-Books-SPA',
