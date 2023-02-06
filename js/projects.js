@@ -3,7 +3,7 @@ const projects = [
     name: 'Hotelator',
     description:
       'Hotelator is a web application that allows users to book hotel rooms and view the status of their reservations.',
-    featuredImage: 'images/Hotel2.png',
+    featuredImage: 'images/hotelater.png',
     technologies: [
       'Ruby',
       'Ruby on Rails',
