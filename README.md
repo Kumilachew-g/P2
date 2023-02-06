@@ -103,9 +103,8 @@ After you're finished please remove all the comments and instructions!
 
 > Key features of the application.
 
-- **Include Home page tells about my bio**
-- **Includes education category which describe the education and certificate I took**
-- **Includes experience category which show about my experience**
+- **Include About page tells about my bio**
+- **Includes Portfolio tells about projects**
 - **Includes contact category which contains my social media address**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
