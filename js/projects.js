@@ -46,7 +46,7 @@ const projects = [
     name: 'Recipe App',
     description:
       'The Recipe App keeps track of all our recipes, ingredients, and inventory.',
-    featuredImage: 'images/Recipe2.png',
+    featuredImage: 'images/recipe2.png',
     technologies: ['Rails', 'CSS', 'Bootstrap', 'Ruby on Rails ', 'PostgreSQL'],
     liveVersion: 'https://recipe-app-7d79.onrender.com',
     source: 'https://github.com/wandergithub/Recipe-app',
@@ -63,7 +63,7 @@ const projects = [
   {
     name: 'Awesome Books',
     description: 'Basic website for add and remove books',
-    featuredImage: 'images/Awesomee.png',
+    featuredImage: 'images/awesomee.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     liveVersion: 'https://kumilachew-g.github.io/Awesome-Books-SPA/',
     source: 'https://github.com/Kumilachew-g/Awesome-Books-SPA',
